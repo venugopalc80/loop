@@ -1,9 +1,21 @@
 {
-  "name":"loop",
-  "private":true,
-  "version":"0.1.0",
-  "type":"module",
-  "scripts":{"dev":"vite","build":"vite build","preview":"vite preview"},
-  "dependencies":{"@vitejs/plugin-react":"latest","@phosphor-icons/react":"^2.1.7","vite":"latest","react":"latest","react-dom":"latest"},
-  "devDependencies":{}
+  "name": "loop",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@phosphor-icons/react": "^2.1.7",
+    "vite": "latest",
+    "react": "latest",
+    "react-dom": "latest"
+  },
+  "devDependencies": {
+    "vitest": "latest"
+  }
 }
